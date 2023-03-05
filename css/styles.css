@@ -61,7 +61,8 @@ address {
 }
 
 .padding-section {
-  padding: 94px 113px;
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 .svg-section {
@@ -95,11 +96,10 @@ body {
 
 .header-flex {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .flex-nav {
-  padding-left: 25px;
   display: flex;
   gap: 93px;
 }
@@ -110,9 +110,6 @@ ul {
 }
 
 .logo {
-  padding-top: 24px;
-  padding-bottom: 25px;
-
   text-decoration: none;
   color: var(--blue-color);
   font-size: 26px;
@@ -123,7 +120,6 @@ ul {
 
 .footer-logo {
   display: flex;
-  padding: 60px 0 9px 113px;
 }
 
 .nav-header {
@@ -234,7 +230,6 @@ h3 {
 }
 
 .padding-ul-main {
-  margin: 0 51px;
 }
 
 .svg-studio {
@@ -257,8 +252,6 @@ h3 {
 }
 
 .padding-portfolio {
-  padding-left: 113px;
-  padding-right: 113px;
 }
 
 .main-h3 {
@@ -360,8 +353,6 @@ footer {
 }
 
 .svg-clientes {
-  padding-left: 113px;
-  padding-right: 113px;
   margin-bottom: 151px;
   display: flex;
   gap: 30px;
@@ -373,20 +364,34 @@ footer {
 
 .svg-footer {
   display: flex;
+  gap: 22px;
 }
 
 .span {
   display: flex;
 }
 
+.aside-svg {
+  display: flex;
+}
+
 .div-svg-footer {
+  display: flex;
+  gap: 22px;
 }
 
 .container-footer {
+  height: 252px;
+  padding: 60px 0;
+  gap: 70px;
+  display: flex;
 }
 
 .icon-list {
   display: flex;
   flex-direction: column;
-  padding: 0 0 60px 113px;
+  padding-bottom: 60px;
+}
+.footer-info {
+  width: 231px;
 }
