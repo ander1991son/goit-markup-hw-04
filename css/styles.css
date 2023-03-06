@@ -61,14 +61,12 @@ address {
 }
 
 .padding-section {
-  padding-bottom: 94px;
-  padding-top: 94px;
+  margin-top: 94px;
 }
 
 .svg-section {
   display: flex;
-  justify-content: center;
-  gap: 30px;
+  justify-content: space-between;
 }
 
 .ul-flex {
@@ -115,10 +113,16 @@ ul {
   font-size: 26px;
   line-height: 30.52px;
   font-weight: 700;
+  padding-top: 25px;
   display: flex;
 }
 
 .footer-logo {
+  text-decoration: none;
+  color: var(--blue-color);
+  font-size: 26px;
+  line-height: 30.52px;
+  font-weight: 700;
   display: flex;
 }
 
@@ -183,6 +187,9 @@ h1 {
 }
 
 .section-h3 {
+  padding-bottom: 94px;
+  padding-top: 94px;
+  justify-content: center;
   background-color: rgba(47, 48, 58, 1);
   background-image: url(../img/fondo-estudio.svg);
 }
@@ -359,16 +366,22 @@ footer {
 }
 
 .span-svg {
+  text-decoration: none;
+  color: var(--white-color);
   display: flex;
 }
 
 .svg-footer {
   display: flex;
-  gap: 22px;
+  flex-direction: column;
 }
 
-.span {
-  display: flex;
+.h3-color {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.75px;
+  text-align: center;
+  color: var(--white-color);
 }
 
 .aside-svg {
@@ -380,11 +393,19 @@ footer {
   gap: 22px;
 }
 
+.div-svg-footer > a > svg path {
+  cursor: pointer;
+}
+
+.div-svg-footer > li > a > svg:hover path {
+  fill: var(--blue-color);
+}
+
 .container-footer {
   height: 252px;
   padding: 60px 0;
-  gap: 70px;
   display: flex;
+  gap: 70px;
 }
 
 .icon-list {
