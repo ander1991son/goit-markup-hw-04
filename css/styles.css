@@ -64,6 +64,27 @@ address {
   margin-top: 94px;
 }
 
+.svg-tecno {
+  border-radius: 4px;
+  width: 70px;
+  height: 70px;
+}
+
+.li-svg {
+  background-color: rgba(245, 244, 250, 1);
+  border-radius: 4px;
+  width: 270px;
+  height: 120px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ul-svg {
+  display: flex;
+  gap: 30px;
+}
+
 .svg-section {
   display: flex;
   justify-content: space-between;
@@ -179,6 +200,11 @@ h1 {
   text-align: center;
 }
 
+.button-servicio {
+  width: 260px;
+  height: 50px;
+}
+
 .container-main {
   display: flex;
   align-items: center;
@@ -187,9 +213,11 @@ h1 {
 }
 
 .section-h3 {
+  height: 600px;
   padding-bottom: 94px;
   padding-top: 94px;
   justify-content: center;
+  align-items: center;
   background-color: rgba(47, 48, 58, 1);
   background-image: url(../img/fondo-estudio.svg);
 }
@@ -236,29 +264,15 @@ h3 {
   gap: 30px;
 }
 
-.padding-ul-main {
-}
-
 .svg-studio {
   padding-top: 16px;
   display: flex;
   justify-content: space-around;
 }
 
-.svg-studio > a > svg path {
-  cursor: pointer;
-}
-
-.svg-studio > a > svg:hover path {
-  fill: var(--blue-color);
-}
-
 .section-width {
   display: flex;
   border-radius: 6px;
-}
-
-.padding-portfolio {
 }
 
 .main-h3 {
@@ -278,7 +292,8 @@ h2 {
 
 .section-h2 {
   line-height: 46.24px;
-  padding-bottom: 55px;
+  padding-bottom: 50px;
+  margin-top: 94px;
   text-align: center;
 }
 
@@ -359,10 +374,39 @@ footer {
   display: flex;
 }
 
+.svg-cliente {
+  border: 1px solid var(--grey-color);
+  width: 170px;
+  height: 81px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.svg-cliente:hover a .icon-group {
+  fill: var(--blue-color);
+}
+
 .svg-clientes {
   margin-bottom: 151px;
   display: flex;
+  justify-content: space-between;
   gap: 30px;
+  cursor: pointer;
+}
+
+.icon-group {
+  fill: var(--white-color);
+}
+
+.svg-cliente {
+  border: solid 1px rgba(175, 177, 184, 1);
+  border-radius: 4px;
+}
+
+.svg-color {
+  fill: rgba(175, 177, 184, 1);
 }
 
 .span-svg {
@@ -393,12 +437,18 @@ footer {
   gap: 22px;
 }
 
-.div-svg-footer > a > svg path {
+.div-svg-footer > li > svg:hover {
   cursor: pointer;
+  color: var(--white-color);
 }
 
-.div-svg-footer > li > a > svg:hover path {
-  fill: var(--blue-color);
+.circle-svg {
+  fill: var(--white-color);
+}
+
+.circle-svg:hover {
+  border-radius: 80%;
+  background-color: var(--blue-color);
 }
 
 .container-footer {
