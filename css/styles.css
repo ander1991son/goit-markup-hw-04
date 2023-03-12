@@ -60,10 +60,6 @@ address {
   align-items: center;
 }
 
-.padding-section {
-  margin-top: 94px;
-}
-
 .svg-tecno {
   border-radius: 4px;
   width: 70px;
@@ -227,6 +223,7 @@ h1 {
   height: 600px;
   padding-bottom: 94px;
   padding-top: 94px;
+  margin-bottom: 89px;
   justify-content: center;
   align-items: center;
   background-color: rgba(47, 48, 58, 1);
@@ -273,7 +270,13 @@ h3 {
 .ul-main {
   padding-bottom: 94px;
   display: flex;
+  justify-content: space-between;
   gap: 30px;
+}
+
+.li-card {
+  height: 404px;
+  border: 1px solid rgba(238, 238, 238, 1);
 }
 
 .li-equipment {
@@ -353,7 +356,7 @@ h2 {
   line-height: 36px;
   color: var(--grey-color);
   text-decoration: none;
-  padding: 0 0 20px 24px;
+  padding-left: 24px;
 }
 
 button {
@@ -420,6 +423,10 @@ footer {
   border-radius: 4px;
 }
 
+.svg-cliente:hover {
+  border: 1px solid var(--blue-color);
+}
+
 .svg-clientes {
   margin-bottom: 151px;
   display: flex;
@@ -438,10 +445,6 @@ footer {
 }
 
 .svg-cliente:hover svg {
-  fill: var(--blue-color);
-}
-
-.svg-cliente:hover {
   fill: var(--blue-color);
 }
 
