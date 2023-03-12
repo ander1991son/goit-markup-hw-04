@@ -196,8 +196,12 @@ ul {
   color: var(--blue-color);
 }
 
-.svg:hover {
-  color: var(--blue-color);
+.information:hover svg {
+  fill: var(--blue-color);
+}
+
+.information-svg {
+  fill: var(--grey-color);
 }
 
 h1 {
@@ -267,6 +271,7 @@ h3 {
 }
 
 .ul-main {
+  padding-bottom: 94px;
   display: flex;
   gap: 30px;
 }
@@ -424,7 +429,7 @@ footer {
 }
 
 .icon-group {
-  fill: var(--white-color);
+  fill: var(--grey-color);
 }
 
 .svg-cliente {
@@ -432,8 +437,12 @@ footer {
   border-radius: 4px;
 }
 
-.icon-group:hover {
-  background-color: var(--blue-color);
+.svg-cliente:hover svg {
+  fill: var(--blue-color);
+}
+
+.svg-cliente:hover {
+  fill: var(--blue-color);
 }
 
 .svg-color {
